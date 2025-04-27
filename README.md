@@ -18,9 +18,9 @@
 
 ### 1. **Enable Custom CSS**
 
-- Open `about:config` in the URL bar and press Enter.
-  > - If prompted, **_click I accept the risk_**
-  > - Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to **true**
+> - Open `about:config` in the URL bar and press Enter.
+> - If prompted, **_click I accept the risk_**
+> - Search for `toolkit.legacyUserProfileCustomizations.stylesheets` and set it to **true**
 
 ### 2. **Locate Your Firefox Profile Folder**
 
