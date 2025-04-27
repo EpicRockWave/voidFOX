@@ -30,8 +30,8 @@
 
 ### 3. **Copy the CSS Files**
 
-> - Copy the entire **chrome** folder into your Firefox profile folder.
-> - Restart Firefox to apply the theme.
+> - Copy the entire **chrome** folder into your Firefox profile folder
+> - Restart Firefox to apply the theme
 
 ### 4. **Customize (Optional)**
 
