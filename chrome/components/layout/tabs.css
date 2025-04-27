@@ -1,0 +1,53 @@
+/* ===== TABBROWSER TABS HEIGHT FIX ===== */
+#tabbrowser-tabs {
+	width: 100% !important;
+	margin: 0px !important;
+	padding: 0px !important;
+
+	min-height: var(--tab-height) !important;
+	max-height: var(--tab-height) !important;
+	box-sizing: border-box !important; /* Fix dragging bug */
+
+	border: none !important;
+}
+
+/* ===== TABS STYLE ===== */
+.tabbrowser-tab {
+	padding-inline: 1px !important;
+	border: none !important;
+}
+
+.tabbrowser-tab[fadein]:not([pinned]) {
+	min-width: 0px !important;
+	max-width: none !important;
+	overflow: hidden !important;
+}
+
+.tabbrowser-tab .tab-content {
+	gap: 0px !important;
+}
+
+.tabbrowser-tab .tab-label {
+	height: 100% !important;
+	align-self: center !important;
+	overflow: hidden !important;
+}
+
+.tabbrowser-tab .tab-icon-stack,
+.tabbrowser-tab .tab-audio-button {
+	padding: 0 !important;
+	padding-bottom: calc(var(--tab-height) / 4) !important;
+	margin: 0 !important;
+}
+
+.tab-background {
+	border: none !important;
+}
+
+.tab-background:is([selected], [multiselected]) {
+	border: none !important;
+}
+
+.tab-text.tab-label:is([selected], [multiselected]) {
+	font-weight: 600 !important;
+}

@@ -1,0 +1,36 @@
+/* ====== USERCHROME.CSS ====== */
+@import "components/core/hidden.css";
+@import "components/layout/tabs.css";
+@import "components/layout/toolbars.css";
+@import "components/layout/urlbar.css";
+@import "components/core/transitions.css";
+@import "components/core/borders.css";
+@import "components/core/colors.css";
+
+/* ===== CONFIG ====== */
+
+/* prettier-ignore */
+:root {
+	/* ===== GENERAL ===== */
+    --tabs-navbar-separator-style: none !important;
+	--ui-border-radius: 0px !important; /* No roundness */
+
+    /* ===== TOOLBAR ===== */
+    --toolbarbutton-inner-padding: 2px !important;
+
+    /* ===== TABBROWSER ===== */
+    --tab-block-margin: 0px !important;
+    --tab-height: 22px;
+    --url-bar-height: 23px;
+
+    /* ===== COLORS ===== */
+    --tab-color: rgba(47, 47, 73, 0.252); /* Default tab background color */
+    --tab-color-hover: rgba(61, 50, 83, 0.35); /* Hovered tab background color */
+    --tab-color-selected: rgba(82, 45, 167, 0.131); /* Selected tab background color */
+    --toolbar-buttons-fill-color: rgba(193, 163, 245, 0.956); /* Toolbar button color */
+    --urlbarView-highlight-background: rgba(87, 62, 129, 0.956) !important; /* URL bar highlight */
+    --link-color: rgba(91, 78, 191, 0.956) !important; /* Link color */
+    --urlbarView-action-color: rgba(91, 78, 191, 0.956) !important; /* URL bar action color */
+    --urlbar-icon-color: rgba(148, 107, 219, 0.956); /* URL bar icon color */
+    --focus-outline-color: rgba(87, 62, 129, 0.956) !important; /* Focus outline color */
+}

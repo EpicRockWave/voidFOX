@@ -1,0 +1,17 @@
+/* ===== HIDDEN ELEMENTS ===== */
+.tab-close-button {
+	display: none !important;
+}
+
+#back-button,
+#forward-button {
+	display: none !important;
+}
+
+#tabs-newtab-button {
+	display: none !important;
+}
+
+#urlbar-zoom-button {
+	display: none !important;
+}

@@ -1,0 +1,57 @@
+/* Source file https://github.com/MrOtherGuy/firefox-csshacks/tree/master/chrome/round_ui_items.css made available under Mozilla Public License v. 2.0*/
+
+/* ===== BORDERS ===== */
+:root {
+	--toolbarbutton-border-radius: var(--ui-border-radius) !important;
+}
+.urlbar-input-container > box:hover,
+.urlbar-input-container > box[open],
+#main-menubar > menu,
+.titlebar-button:hover,
+#scrollbutton-up,
+#scrollbutton-down,
+.tab-close-button,
+.close-icon > image,
+#page-action-buttons > :hover,
+.panel-arrowcontent,
+.urlbarView-row-inner,
+.search-one-offs button,
+.subviewbutton-back,
+.toolbaritem-combined-buttons > toolbarbutton,
+#PopupSearchAutoComplete,
+menupopup {
+	border-radius: var(--ui-border-radius) !important;
+}
+
+button,
+.tab-background {
+	border-radius: var(--ui-border-radius) !important;
+}
+
+.tabbrowser-tab .tab-audio-button {
+	border-radius: var(--ui-border-radius) !important;
+}
+
+.panel-arrowcontent {
+	margin-inline-end: 0 !important;
+}
+.panel-arrow {
+	margin-inline: 0 !important;
+}
+
+menupopup {
+	-moz-appearance: none !important;
+	overflow: -moz-hidden-unscrollable !important;
+}
+
+.tabbrowser-tab[selected]::after,
+.tabbrowser-tab[beforeselected-visible]::after {
+	border-color: transparent !important;
+}
+
+.urlbar-icon,
+toolbar
+	toolbarbutton:not(#back-button):not(.bookmark-item):not(.titlebar-button)
+	> .toolbarbutton-icon {
+	border-radius: var(--ui-border-radius) !important;
+}

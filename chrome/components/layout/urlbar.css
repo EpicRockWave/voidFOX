@@ -1,0 +1,38 @@
+/* ===== URL BAR ===== */
+
+#urlbar,
+#urlbar-background,
+#urlbar-input-container,
+#urlbar-container {
+	padding: 0px !important;
+	margin: 0 !important;
+	border: none !important;
+}
+
+#urlbar-input {
+	text-align: center !important;
+}
+
+#urlbar:not([open], [focused]) #urlbar-background {
+	min-height: var(--url-bar-height) !important;
+	height: var(--url-bar-height) !important;
+}
+
+.urlbar-page-action,
+.notification-anchor-icon {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+
+.toolbarbutton-badge {
+	min-width: 5px !important;
+}
+
+/* ===== COMPACT ICONS IN URL-BAR ===== */
+#urlbar .urlbar-page-action,
+#tracking-protection-icon-container,
+#identity-box {
+	margin: 0 !important;
+	padding: 0 !important;
+	padding-top: 3px !important;
+}

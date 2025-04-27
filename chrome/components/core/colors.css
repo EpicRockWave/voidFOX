@@ -1,0 +1,27 @@
+/* ===== COLORS ===== */
+
+.tab-background {
+	background-color: var(--tab-color) !important;
+	border: none !important;
+}
+
+.tabbrowser-tab:hover > .tab-stack > .tab-background {
+	background-color: var(--tab-color-hover) !important;
+}
+
+.tab-background:is([selected], [multiselected]) {
+	background-color: var(--tab-color-selected) !important;
+	border: none !important;
+}
+
+.titlebar-button:hover {
+	background-color: var(--tab-color-hover) !important;
+}
+
+toolbarbutton {
+	fill: var(--toolbar-buttons-fill-color) !important;
+}
+
+.urlbar-icon {
+	fill: var(--urlbar-icon-color) !important;
+}

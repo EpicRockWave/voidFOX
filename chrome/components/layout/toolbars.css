@@ -1,0 +1,56 @@
+/* ===== LAYOUT REORGANIZATION ===== */
+#titlebar {
+	order: 1 !important;
+	height: 30px !important;
+}
+
+#nav-bar {
+	order: 2 !important;
+	width: 100% !important;
+	padding-right: 138px !important; /* Space for window buttons */
+	min-height: 23px !important;
+	max-height: 23px !important;
+
+	display: flex !important;
+	align-items: stretch !important;
+}
+
+#PersonalToolbar {
+	order: 3 !important;
+}
+
+#TabsToolbar {
+	order: 5 !important;
+	min-height: var(--tab-height) !important;
+	max-height: var(--tab-height) !important;
+	box-sizing: border-box !important;
+}
+
+/* ===== TOOLBAR CLEANUP ===== */
+
+.toolbarbutton-1 {
+	margin: 0 !important;
+	padding: 0 2px !important;
+}
+
+#PanelUI-button {
+	order: -2 !important;
+}
+
+/* ===== TITLEBAR ===== */
+.titlebar-spacer,
+.titlebar-placeholder[type="pre-tabs"] {
+	display: none !important;
+}
+
+.titlebar-buttonbox-container {
+	position: absolute !important;
+	right: -2px !important;
+	top: -2px !important;
+}
+
+/* ===== BOOKMARKS ===== */
+.bookmark-item {
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+}
